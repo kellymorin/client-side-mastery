@@ -1,6 +1,6 @@
-# Personalizing the OSX Command Line
+# Personalizing Bash
 
-Sorry Windows users, this is for OSX users only. Microsoft simply does not provide any way to have a very personalized terminal.
+If you have Windows 10, or greater, then you can install the [bash subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10), which is a more powerful, developer-friendly terminal emulator like the ones that you Mac-using friends have.
 
 ## Autojump
 

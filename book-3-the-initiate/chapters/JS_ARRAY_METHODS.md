@@ -1,5 +1,55 @@
 # Shaping Data with Array Methods
 
+## find
+
+This will be one of the most useful methods for you during the client side course. Imagine the following scenario.
+
+You have an array of objects that represent businesses. Each business name is unique. The `find()` array method will iterate the array until it finds a match, and then return that matched object.
+
+```js
+const businesses = [
+  {
+    "index": 1,
+    "company": "KAGE",
+    "phone": "+1 (971) 427-3003",
+    "address": "888 Kansas Place, Riceville, West Virginia, 3628"
+  },
+  {
+    "index": 2,
+    "company": "DUFLEX",
+    "phone": "+1 (834) 503-3186",
+    "address": "856 Kensington Street, Kieler, Missouri, 1635"
+  },
+  {
+    "index": 3,
+    "company": "UPLINX",
+    "phone": "+1 (921) 443-2136",
+    "address": "255 Duffield Street, Maury, Marshall Islands, 4407"
+  },
+  {
+    "index": 4,
+    "company": "PORTALINE",
+    "phone": "+1 (889) 454-3246",
+    "address": "771 Atlantic Avenue, Waumandee, Indiana, 1297"
+  },
+  {
+    "index": 5,
+    "company": "XUMONK",
+    "phone": "+1 (948) 419-3737",
+    "address": "778 Montague Street, Derwood, North Dakota, 764"
+  }
+]
+
+// Find business by its name
+const targetBusiness = businesses.find(business => business.name === "UPLINX")
+
+// Find business by its id
+const targetBusiness = businesses.find(business => business.id === 2)
+
+// Find business by its state
+const targetBusiness = businesses.find(business => business.address.includes("Missouri"))
+```
+
 ## forEach
 
 This is a straight up replacement for a `for` loop. However, where a `for` loop simply iterates _n_ number of times, the `forEach()` method is an operation on an array.

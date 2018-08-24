@@ -24,7 +24,6 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
 * Chapter 13 - [Querying DOM Components](./chapters/IDENTIFYING_DOM_COMPONENTS.md)
 * Chapter 14 - [Data in Software Applications](./chapters/JS_DATA.md)
 * Chapter 15 - [Bootstrap](./chapters/BOOTSTRAP.md)
-* **React Lab:** `class` syntax for creating objects
 * Chapter 16 - [Building DOM Components](./chapters/JS_CREATING_COMPONENTS.md)
 * Chapter 17 - [Modular Code for Team-Based Development](./chapters/DESIGN_MODULARITY.md)
 
