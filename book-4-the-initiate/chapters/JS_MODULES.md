@@ -113,7 +113,7 @@ Open the `src/scripts/main.js` file and get rid of what's in there already, and 
 import CarFactory from "./carFactory"
 
 
-const garage = []
+let garage = []
 
 // Create two cars using the function you imported
 const mustang = CarFactory("Ford", "Mustang")
@@ -168,7 +168,7 @@ Instead of the garage being a simple array in your main module, you are going to
     code in other modules to indirectly access it by using
     the methods.
 */
-const garage = []
+let garage = []
 
 export default Object.create(null, {
     "store": {
