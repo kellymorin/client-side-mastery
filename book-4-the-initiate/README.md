@@ -2,9 +2,9 @@
 
 In this book, you will learn tools, libraries and workflows that modern client side developers use.
 
-* Chapter 1 - [Command Line Personalization](./chapters/CLI_PERSONALIZATION.md){:target="_blank"}
-* Chapter 2 - [Collecting User Input](./chapters/USER_INPUT.md){:target="_blank"}
-* Chapter 3 - [Daily Journal - Part 5](./chapters/DAILY_JOURNAL_SAVING_ENTRIES.md){:target="_blank"}
+* Chapter 1 - [Command Line Personalization](./chapters/CLI_PERSONALIZATION.md" target="_blank)
+* Chapter 2 - [Collecting User Input](./chapters/USER_INPUT.md)
+* Chapter 3 - [Daily Journal - Part 5](./chapters/DAILY_JOURNAL_SAVING_ENTRIES.md)
 * Chapter 4 - [Advanced Control of Objects](./chapters/JS_OBJECT_CREATE.md)
 * Chapter 5 - [Filtering Data with Array Methods](./chapters/JS_ARRAY_METHODS.md)
 * Chapter 6 - [Daily Journal - Part 6](./chapters/DAILY_JOURNAL_FILTERING_MOOD.md)
